@@ -1,0 +1,28 @@
+/* Customize sidebar background and text color */
+.main-sidebar {
+    background-color: #2c3e50 !important; /* Dark blue background */
+    color: #ecf0f1 !important; /* Light gray text */
+}
+
+/* Customize sidebar link colors */
+.nav-sidebar .nav-link {
+    color: #ecf0f1 !important;
+}
+
+/* Hover effect for sidebar links */
+.nav-sidebar .nav-link:hover {
+    background-color: #34495e !important; /* Slightly lighter blue on hover */
+}
+
+/* Active link style */
+.nav-sidebar .nav-link.active {
+    background-color: #3498db !important; /* Bright blue for active link */
+}
+
+/* For mobile devices */
+@media (max-width: 992px) {
+    .sidebar-open .main-sidebar, .main-sidebar::before {
+        width: 100% !important;
+        left: 0 !important;
+    }
+}
